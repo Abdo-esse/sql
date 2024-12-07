@@ -34,3 +34,8 @@ VALUES
 use location;
 show tables;
 desc voiture;
+show tables ;
+select * from voiture
+
+alter Table voiture
+RENAME COLUMN model to modele
