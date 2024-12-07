@@ -35,7 +35,10 @@ use location;
 show tables;
 desc voiture;
 show tables ;
-select * from voiture
+use location;
+select * from voiture;
 
-alter Table voiture
-RENAME COLUMN model to modele
+ALTER TABLE voiture
+CHANGE model modele date;
+
+
