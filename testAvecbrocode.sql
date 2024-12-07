@@ -8,4 +8,10 @@ create database myDB;
     hire_date date
  );
  select * from employees ;
+ rename table employees to workers;
+alter table workers
+add phone_number VARCHAR(13);
  
+ select * from workers ;
+alter table workers
+CHANGE column phone_number email VARCHAR(54);
