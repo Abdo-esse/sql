@@ -1,3 +1,4 @@
+-- Active: 1733434204073@@127.0.0.1@3306@
 create database myDB;
  use myDB;
  create table employees(
