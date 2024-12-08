@@ -16,3 +16,6 @@ add phone_number VARCHAR(13);
  select * from workers ;
 alter table workers
 CHANGE column phone_number email VARCHAR(54);
+SELECT VERSION();
+alter table workers 
+modify column email varchar 
